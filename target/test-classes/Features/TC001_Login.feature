@@ -1,4 +1,4 @@
-@Smoke
+
 Feature: Verifying login Module
 
   Scenario Outline: Verifying login with valid credentials without Enter Key

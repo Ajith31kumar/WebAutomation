@@ -1,4 +1,4 @@
-@Smoke
+
 Feature: Verfying hotels Modle
 
 

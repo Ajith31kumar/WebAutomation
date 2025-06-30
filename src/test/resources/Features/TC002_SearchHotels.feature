@@ -1,7 +1,7 @@
 
 Feature: Verfying hotels Modle
 
- @Smoke
+
   Scenario Outline: Search hotels with all fields
     Given User is on the OMR Branch hotel page
     When User login "<User name>" and "<Password>"
@@ -12,7 +12,7 @@ Feature: Verfying hotels Modle
     Examples: 
       | User name                 | Password   | State  | city  | Room type | Check in date | Check out date | No of Room | No of Adults | No of Childs |
       | ajithkumar06952@gmail.com | Ajith9843@ | Kerala | Kochi | Suite     |            26 |             27 | 1-One      | 1-One        |            1 |
-@Smoke
+
   Scenario Outline: Search hotels with only mandatory fields
     Given User is on the OMR Branch hotel page
     When User login "<User name>" and "<Password>"
@@ -23,7 +23,7 @@ Feature: Verfying hotels Modle
     Examples: 
       | User name                 | Password   | State  | city   | Room type | Check in date | Check out date | No of Room | No of Adults |
       | ajithkumar06952@gmail.com | Ajith9843@ | Kerala | Kochi | Suite     |            26 |             27 | 1-One      | 1-One        |
-@Smoke
+
   Scenario Outline: Search hotels without entering any fields and verifying the error messages
     Given User is on the OMR Branch hotel page
     When User login "<User name>" and "<Password>"
